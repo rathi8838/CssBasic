@@ -1,0 +1,240 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: cursive;
+
+}
+.Rathi{
+    /*border:2px solid red;*/
+}
+img{
+    display: inline;
+    /*border:2px solid red;*/
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+div li{
+    /* border:2px solid red;*/
+    list-style: none;
+}
+li a{
+    /*border :2px solid red;*/
+    text-decoration: none;
+    color: plum;
+    position: relative;
+    left: 800px;
+    top: -30px;
+    font-size: 20px;
+}
+li.btn{
+    /*border :2px solid red;*/
+    position: relative;
+    right: 300px;
+    top: -40px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: ;
+    font-size: 30px;
+    font - width:200px ;
+    bottom:900px;
+}
+.sec1{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/superapp-web.appspot.com/o/landing-page-hero-10-2023%2Fhero-lg-2024.png?alt=media&token=b0f6406d-048f-4497-9b90-bd6e2359cc87');
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: 900px;
+}
+.kids{
+    font-size: 20px;
+    color: rgb(123,68,95);
+    /*backgroud -color:red;*/
+    position: relative;
+    top: 150px;
+left :150px;
+}
+.ph{
+    color: rgb(46, 78, 89);
+    position: relative;
+    top: 140px;
+    left: 80px;
+}
+.sec2{
+    background-color: blue;
+    height: 60px;
+    width: 230px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    left: 130px;
+
+
+}
+.child{
+    color: rgb(123,68,95);
+    font: blod;
+}
+.child1{
+    color: rgb(8, 50, 80);
+}
+.child2{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    display: flex;
+    justify-content: space-around;
+
+}
+.child3{
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+       .child.4{
+        display: flex: ;
+        justify-content: space-around;
+    }
+}
+.btn{
+    background-color: purple;
+    height: 50px;
+    width: 250px;
+    color: white;
+    font-size: 30px;
+    font: bold;
+    border-radius: 30px;
+
+}
+.girl{
+    font: bold;
+}
+.girl1{
+    display: flex;
+    justify-content: space-evenly;
+     text-align: center;
+     background-size: 10px;
+}
+.bgc{
+    background-color: rgb(123,68,95);
+    border-radius: 35px;
+    height: 400px;
+    width: 400px;
+
+}
+.bgc1{
+background-color:rgb(47, 180, 245) ;
+border-radius: 35px;
+height: 400px;
+width: 400px;
+}
+.btn2{
+background-color:rgb(46, 78, 89);
+font-size: 35px;
+width: 200px;
+color: white;
+font-size: 30px;
+font: bold;
+border-radius: 25px;
+}
+.sec{
+    color: rgb(47, 6, 85);
+    font-size: 10px;
+    padding: 70px;
+    text-align: center;
+}
+.btn3{
+    background-color: rgb(47, 6, 85);
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 30px;
+    font: bold;
+    border-radius: 20px;
+}
+.cat{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+    .sec5{
+        color: rgb(46, 78, 89);
+        font-size: 10px;
+        font: bold;
+        text-align: center;
+    }
+    .cat1{
+        border-radius: 200px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sec6{
+        padding: 50px;
+        color: white;
+
+    }
+    .cat3{
+        display: flex;
+    background-color: blueviolet;
+    background-size: contain;
+    
+    
+    }
+    .mi{
+        display: flex;
+        background-color: rgb (185,4,185);
+        background-size: contain;
+        justify-content: space-around;
+        text-align: right;
+        
+    .mi1{
+        
+    padding: 15px;
+    display: flex;
+        
+    }
+    .mi2{
+        padding: 50px;
+        color: white;
+        
+
+    }
+
+    .bor1{
+        justify-content: space-around;
+        background-color: rgb(123,68,95);
+        border-radius: 20px;
+        color: blue;
+        /*border:2px solid black */ 
+        height: 300px;
+        width: 300px;
+        text-align: center;
+    
+    
+    
+    }
+    .bor2{
+        justify-content: space-evenly;
+        background-color: rgb(47, 189, 245);
+        border-radius: 15px;
+        color: purple;
+        /* border:2px solid black */
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        display: flex;
+    }
+    .btn{
+        background-color: aqua;
+        height: 50px;
+        width: 300px;
+        color: white;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+
+        
+    

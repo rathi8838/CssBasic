@@ -1,0 +1,203 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.varsh{
+    /*border :2px solid red;*/
+    
+}
+img{
+display: inline;
+/* border :2px solid red;*/
+position: relative;
+top: -20px;
+right: -90px;
+
+}
+.num{
+    position: relative;
+    top: -100px;
+    left:900px;
+    
+    
+}
+.mail{
+    
+    top:-120px;
+    left: 1120px;
+    position: relative;
+
+}
+.word{
+    font-size: 15px;
+    font-weight: lighter;
+    top: -100px;
+    justify-content: space-around;
+    display: flex;
+}
+.cls{
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter;
+    right: -50px;
+}
+.hi{
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter;
+    right: -50px;
+}
+.cls1{
+    display: inline;
+    position: relative;
+    top: -210px;
+    right: -460px;
+    justify-content: space-between;
+
+    
+
+}
+.cls2{
+    display:inline;
+    position: relative;
+    top: -450px ;
+    right: -680px;
+    justify-content: space-evenly;
+
+
+}
+.cls3{
+    display: inline;
+    position: relative;
+    top:-670px ; 
+    right: -900px; 
+    justify-content: space-evenly;
+}
+.cls4{
+    position: relative;
+    top: -600px;
+    left:80px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.cls41{
+    position: relative;
+    top:-500px;
+    left:+40px;
+    font-size:15px;
+    font-weight: lighter;
+}
+.cls5{
+    position: relative;
+    top: -720px;
+    left: +260px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.cls6{
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter;
+     top:-950px ;
+    left: 480px;
+}
+.cls7{
+    position: relative;
+    top: -1200px;
+    right:-710px;
+    font-size: 12px;
+    font-weight: lighter;
+
+}
+.cls8{
+    position: relative;
+    font-size: 19px;
+    font-weight: lighter;
+    color: black;
+    top: 100px;
+    left: -180px;
+}
+.btn{
+    position: relative;
+    top: -700px;
+}
+.cls9{
+    position: relative;
+    font-size: 12px;
+    font-weight:  lighter;
+    left: 110px;
+    top: -1000px;
+}
+.hi0{
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter;
+    top: -1230px;
+    right: -550px;
+}
+.hi1{
+    position: relative;
+    display: inline;
+    top: -1470px;
+    right:-770px ;
+}
+.hi2{
+    position: relative;
+    display: inline;
+    top: -1690px;
+    right: -990px;
+}
+.hi3{
+    position: relative;
+    font-size: 18px;
+    font-weight: lighter;
+    top: -1500px;
+    left: 600px;
+    color: black;
+}
+.hi4{
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter;
+    top: -1380px;
+    right:  -130px;
+}
+.hi5{
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter;
+    top: -1630px;
+    right:-350px ;
+}
+.hi6{
+    position: relative;
+    display: inline;
+    font-size: 15px;
+    font-weight: lighter;
+    top: -1880px;
+    right: -570px;
+
+}
+.hi7{
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter;
+    top: -2120px;
+    right: -790px;
+
+.hi8{
+    justify-content: space-evenly;
+    position: relative;
+    display: flex;
+    font-size: 30px;
+    top: -1200px;
+    left: -90px;
+    color: rgb(67, 55,88);
+}
+
+
+
+
+
+
