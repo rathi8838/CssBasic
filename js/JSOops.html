@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Js Oops</h1>
+
+</body>
+</html>
+<script>
+
+
+// Abstraction
+class Mousiya{
+    add(x,y){
+        console.log(this.a=x);
+        console.log(this.b=y);
+        
+    }
+}
+
+
+const obj = new Mousiya();
+
+obj.add(10,20)
+
+// constructor
+
+class Harini{
+    constructor(){
+        this.Name="Mousiya";
+        
+    }
+}
+
+const ss = new Harini();
+console.log(ss.Name);
+
+
+// prototype
+
+let objj ={
+    Name:"Harini",
+    colloge:"sec",
+
+}
+
+objj.city="erode";
+
+console.log(objj);
+
+// inheritence
+
+
+class Erode{
+    add(){
+        console.log("Welcome to The World..");
+        
+    }
+}
+
+
+class cbe extends Erode{
+
+}
+
+const y = new cbe();
+
+y.add();
+
+//polymorphism
+
+class one{
+    add(){
+        console.log("One");
+        
+    }
+}
+
+class two extends one{
+    add(){
+        console.log("Two");
+        
+    }
+}
+
+class threen extends two{
+    add(){
+        console.log("Threee");
+        
+    }
+}
+
+
+const x = new one();
+const yy = new two();
+const z = new threen();
+
+x.add();
+yy.add();
+z.add();
+
+// try{
+//     meeenachi("welcome to world..")
+// }
+
+// catch(e){
+//     console.log(e);
+//     throw new Error(e)
+// }
+// finally{
+//     console.log("to be countinue..");
+    
+// }
+
+
+
+function persion(){
+    setTimeout(()=>{
+        console.log("runing...");
+        
+    },4000)
+}
+
+
+async function TIme() {
+    await persion();
+    console.log("welcome..");
+    
+}
+
+TIme()
+
+
+
+
+</script>

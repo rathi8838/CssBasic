@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body   onload="LL()" onresize="RESIZ()" onscroll="SCR()">
+
+
+
+
+    <p onclick="Oneclick()">Lorem, ipsum.</p>
+    <p ondblclick="TwoClik()">Lorem, ipsum.</p>
+    <p onmousedown="MouseDown()" onmouseenter="MopuseEnter()" onmouseup="MouseUp()" onmousemove="MouseMOve()" onmouseover="MouseOver()" onmouseout="MouseOut()">MouseEVnts</p>
+
+    <input type="text" onkeydown="KeyDown()" onkeypress="KeyPress()" onkeyup="KeyUp()">
+
+
+    <h2>Form Event</h2>
+    
+    <form onsubmit="Sub()" onreset="RESet()">
+        <input type="text" id="user" onfocus="Fuc()" onblur="Blu()">
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+
+    <select name="" id="aa" onchange="Ch()">
+        <option value="BMW">BMW</option>
+        <option value="KIA">KIA</option>
+        <option value="RR">RR</option>
+    </select>
+
+
+<input type="text" oncopy="CPY()" value="surya">
+<input type="text" oncut="Ct()" value="surya">
+<input type="text" onpaste="Pst()" >
+
+
+
+</body>
+</html>
+<script>
+
+
+function CPY(){
+    console.log("date copied..");
+    
+}
+function Ct(){
+    console.log("Cuted..");
+    
+}
+function Pst(){
+    console.log("Data pasted..");
+    
+}
+
+
+let b = document.getElementById('aa');
+function Ch(){
+    console.log(b.value);
+    
+}
+
+function LL(){
+    // alert('welcome...')
+}
+
+function RESIZ(){
+    console.log("resized..");
+    
+}
+
+function SCR(){
+    console.log("SCrolling...");
+    
+}
+
+    let a = document.getElementById('user')
+    function Fuc(){
+        a.style.backgroundColor="yellow"
+    }
+
+    function Blu(){
+        a.style.backgroundColor="red"
+    }
+    
+
+    function Sub(){
+        alert('date addeted..')
+    }
+    function RESet(){
+        console.log("Data Deleted..");
+        
+    }
+
+    function KeyDown(){
+        console.log("KeyDown");
+        
+    }
+    function KeyPress(){
+        console.log("KeyPress");
+        
+    }
+    function KeyUp(){
+        console.log("KeyUp");
+        
+    }
+
+
+    function Oneclick(){
+        console.log("one time clicked");
+        
+    }
+    function TwoClik(){
+        console.log("Twi TimeCLikekd");
+        
+    }
+
+    function MopuseEnter(){
+        console.log("MopuseEnter");
+        
+    }
+    function MouseUp(){
+        console.log("MouseUp");
+        
+    } 
+    function MouseMOve(){
+        console.log("MouseMOve");
+        
+    }
+    function MouseOver(){
+        console.log("MouseOver");
+        
+    }
+    function MouseOut(){
+        console.log("MouseOut");
+        
+    }
+</script>

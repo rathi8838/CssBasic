@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="head" style="color: red;" class="">surya</h1>
+
+    <ul id="ul">
+        <li>one</li>
+        <li>Two</li>
+    </ul>
+
+</body>
+</html>
+
+<script>
+    let Name = document.getElementById('head');
+
+    console.log(Name.getAttributeNames());
+
+    Name.setAttribute("style","color:yellow");
+
+    Name.classList.add("surya");
+    Name.classList.remove('surya')
+    
+    let h1 = document.createElement('h1');
+    h1.innerHTML="SURYRAJ";
+
+    document.body.appendChild(h1)
+
+    let ul = document.getElementById('ul');
+    let li = document.createElement('li');
+
+    li.innerHTML="Three"
+
+    ul.insertBefore(li,ul.children[2]);
+    
+
+
+</script>
+
+
+<style>
+    .surya{
+        background-color: green;
+    }
+</style>
